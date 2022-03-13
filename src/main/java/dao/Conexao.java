@@ -6,9 +6,9 @@ import java.sql.SQLException;
 public class Conexao {	
 	
 	private String driver = "com.mysql.cj.jdbc.Driver";
-	private String URL	=  "jdbc:mysql://localhost:3306/IEC_CRUD?useTimezone=true&serverTimezone=UTC";
+	private String URL	=  "jdbc:mysql://localhost:3306/iec_crud?useTimezone=true&serverTimezone=UTC";
 	private String USER = "root";
-	private String SENHA = "root";
+	private String SENHA = "123456";
 	private Connection conn;
 	
 	public Conexao() {

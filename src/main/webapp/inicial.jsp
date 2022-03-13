@@ -30,7 +30,9 @@
                     <td>
                     	<a href="edit?id=<c:out value='${categoria.codigo}' />">Alterar</a>
                     		&nbsp;&nbsp;&nbsp;&nbsp;
-                    	<a href="delete?id=<c:out value='${categoria.codigo}' />">Deletar</a>                    	
+                    	<a href="delete?id=<c:out value='${categoria.codigo}' />">Deletar</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;               	
+                    	<a href="listar-produto?id=<c:out value='${categoria.codigo}' />">Ver produtos</a>                    	
                     </td>
                 </tr>
             </c:forEach>
