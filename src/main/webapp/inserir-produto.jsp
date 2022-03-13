@@ -28,7 +28,7 @@
 				</div>
 				<input type="submit" value="Inserir">
 			</form>
-			<a href="produto.jsp"> Voltar </a>
+			<a href="listar-produto"> Voltar </a>
 		</center>
 	</body>
 
